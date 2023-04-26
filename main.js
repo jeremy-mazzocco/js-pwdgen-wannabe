@@ -1,4 +1,4 @@
-let yourName, yourLastName, yourFavoriteColor;
+let yourName, yourLastName, yourFavoriteColor, numberRandom;
 
 // chiedi qual'e il tuo nome
 yourName = prompt(
@@ -15,6 +15,8 @@ yourFavoriteColor = prompt(
     "Qual'e il tuo colore preferito?"
 );
 
+
+numberRandom = Math.floor((Math.random() * 99) + 10);
 // scrivi ull'HTML
 
-document.getElementById('your_password').innerHTML = yourName + yourLastName + yourFavoriteColor;
+document.getElementById('your_password').innerHTML = yourName + yourLastName + yourFavoriteColor + numberRandom;
