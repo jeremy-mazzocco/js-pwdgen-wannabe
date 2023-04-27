@@ -15,8 +15,9 @@ yourFavoriteColor = prompt(
     "Qual'e il tuo colore preferito?"
 );
 
-
+// crea un numero rando a due cifre
 numberRandom = Math.floor((Math.random() * 99) + 10);
-// scrivi ull'HTML
 
+
+// scrivi ull'HTML
 document.getElementById('your_password').innerHTML = yourName + yourLastName + yourFavoriteColor + numberRandom;
